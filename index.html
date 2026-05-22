@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroVerde Paraná</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AgroVerde Paraná</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#praticas">Práticas Sustentáveis</a></li>
+                <li><a href="#mapa">Mapa do Paraná</a></li>
+                <li><a href="#comunidade">Comunidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="home">
+        <h2>Bem-vindo ao AgroVerde Paraná</h2>
+        <p>Promovendo agricultura sustentável no Paraná para proteger o meio ambiente.</p>
+    </section>
+
+    <section id="praticas">
+        <h2>Práticas Sustentáveis</h2>
+        <ul>
+            <li>Rotação de culturas</li>
+            <li>Manejo de solo</li>
+            <li>Irrigação eficiente</li>
+            <li>Agrofloresta</li>
+            <li>Uso racional de defensivos</li>
+        </ul>
+    </section>
+
+    <section id="mapa">
+        <h2>Mapa Interativo do Paraná</h2>
+        <div id="map-container">
+            <button id="loadMapBtn">Mostrar mapa com projetos sustentáveis</button>
+            <div id="map"></div>
+        </div>
+    </section>
+
+    <section id="comunidade">
+        <h2>Comunidade</h2>
+        <p>Participe do nosso fórum e grupos de troca de experiências.</p>
+        <button onclick="alert('Fórum em desenvolvimento!')">Acessar Fórum</button>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 AgroVerde Paraná - Agricultura Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
